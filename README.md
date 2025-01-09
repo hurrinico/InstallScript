@@ -13,6 +13,13 @@ If you set the parameter ```INSTALL_NGINX``` to ```True``` you should also confi
 ```
 sudo wget https://raw.githubusercontent.com/Yenthe666/InstallScript/16.0/odoo_install.sh
 ```
+##### 1.1 Set Github Key for Enterprise repo:
+In order to clone repository from Github you must set your SSS-KEY on the system
+in ./ssh (if not exist, create)
+```
+ssh-keygen
+```
+Then copy the key and add it on your Github profile
 ##### 2. Modify the parameters as you wish.
 There are a few things you can configure, this is the most used list:<br/>
 ```OE_USER``` will be the username for the system user.<br/>
